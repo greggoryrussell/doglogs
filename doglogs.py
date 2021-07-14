@@ -34,13 +34,14 @@ class PromptMenu:
                 d = return_date_string()
                 normality_status = ['Normal','Concerning']
                 p = input('(N)ormal?\n(C)oncerning?\nType the First Letter to make your choice: ')
+                # 'p' will take on the normality_status so it can write it into the CSV
                 if p.lower() == 'c':
                     p = 'Concerning'
                 elif p.lower() == 'n':
                     p = 'Normal'
                 else: 
                     print('Error! Not a valid choice!')
-                    return
+                    return # Return back to the command prompt
                     
                 
                 if str(p) in normality_status:
