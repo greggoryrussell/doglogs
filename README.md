@@ -1,6 +1,4 @@
-# Logs
-
-Dog Logs
+# Dog Logs
 
 A simple script for tracking one's dog's "business" throughout the day. User chooses if the "business" looks **Normal** or **Concerning** and logs it to a CSV with a date and timestamp. There is also optional comments that will be recorded into the CSV file if specified.
 
