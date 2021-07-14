@@ -43,9 +43,6 @@ class PromptMenu:
                     print('Error! Not a valid choice!')
                     return # Return back to the command prompt
                     
-                
-                if str(p) in normality_status:
-                    print(p + "a valid choice")
                 print("You chose: " + p)
                 opt_comment = input("Optional Comment? ")
                 filename = './Dog-Business.csv'
