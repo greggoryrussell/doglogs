@@ -19,6 +19,7 @@ The following commands work in the prompt:
 2. `"?"` = **Print Help Menu**
 3. `"v"` = **Print Shell Version**
 4. `"d"` = **Print Current Date**
+5. `"p"` = **Poo Recording Mode**
 
 
 #### Example Ouput
