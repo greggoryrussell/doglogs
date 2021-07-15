@@ -1,4 +1,7 @@
 #!./venv/bin/python3
+# By Greggory Russell <g.russ77@gmail.com
+# https://greggoryrussell.com
+
 from datetime import date, datetime
 import csv
 import os.path
